@@ -1,0 +1,26 @@
+Package: parlscot
+Title: parlscot
+Version: 0.0.0.9000
+Authors@R: 
+    person("Daniel", "Braby", , "danbraby@icloud.com", role = c("cre", "aut"))
+Description: Fetch the Scottish Parliamentary Spoken Record
+License: {{ License }}
+URL: http://this
+BugReports: http://that
+Imports: 
+    attempt,
+    curl,
+    data.table,
+    httr,
+    janitor,
+    jsonlite,
+    lubridate,
+    purrr
+Encoding: UTF-8
+RoxygenNote: 7.1.2
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
